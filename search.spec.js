@@ -28,7 +28,7 @@ describe("#linearSearchRecursive", function () {
 
 describe("#binarySearch", function () {
   it("should find the index of a value in an array", function () {
-    expect(binarySearch([1, 2, 3, 4], 4)).to.equal(3);
+    expect(binarySearch([1, 2, 3, 4], 4)).to.equal(3); 
     expect(binarySearch([1, 2], 1)).to.equal(0);
     expect(binarySearch([1, 2, 3, 4, 5, 6, 7], 6)).to.equal(5);
   });
